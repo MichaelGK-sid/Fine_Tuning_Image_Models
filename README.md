@@ -14,9 +14,13 @@ The notebook contains all the PyTorch code needed to:
 - Evaluate models and calculate test accuracy  
 - Save trained model weights in a `.pth` file  
 - Load pretrained model weights from a `.pth` file  
-- Generate model architecture summaries using `torchinfo`  
+- Generate model architecture summaries using `torchinfo`
 
-### 2. Data Folder  
+### 2. Python Script (`.py`)  
+The python script also contains all the code needed to do everything listed above. It simply is the same code in the Jupyter notebook in another format.
+
+
+### 3. Data Folder  
 The `data/` folder contains a sample dataset of images (already split into training and testing sets).  
 - This dataset can be used to quickly try out model training.  
 - Since the images are organized in simple folder structures, the unzipping step is **not required**.  
